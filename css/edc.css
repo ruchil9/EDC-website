@@ -1,6 +1,97 @@
+.teamwrapper{
+	max-width: 1000px;
+	width: 100%;
+	background-color: white;
+	margin:0 auto;
+}
+
+.teamwrapper .heading{
+	width: 100%;
+	overflow: auto;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tabs { list-style: none; padding:0px; }
+.tabs li { display: inline; }
+.tabs li a { color: black; float: left; display: block; padding: 4px 10px; margin-left: -1px; position: relative; left: 1px; background: white; text-decoration: none; }
+.tabs li a:hover { background: #0068AC; }
+
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.boxwrap { position: relative; min-height: 250px; }
+.tabbed-area div div { background: white; padding: 20px;position: absolute; top: -1px; left: 0; width: 100%; }
+.tabbed-area .tabs li a { border: 1px solid #ccc;
+border-radius: 2px; }
+
+
+#boxone:target, #boxtwo:target {
+  z-index: 1;
+}
+
+
+
+/*.cur-nav-fix .tabs { position: absolute; bottom: 100%; left: -1px; }
+.cur-nav-fix .tabs li a { 
+   background: -webkit-linear-gradient(top, white, #eee); 
+   background: -moz-linear-gradient(top, white, #eee); 
+   background: -ms-linear-gradient(top, white, #eee); 
+   background: -o-linear-gradient(top, white, #eee); 
+}
+#boxone { z-index: 1; }
+#boxone:target .tabs, #boxtwo:target .tabs, .tabs { z-index: 3; }
+.cur-nav-fix .tabs li.cur a { border-bottom: 1px solid white; background: white; }
+*/.wrappercontent{
+	max-width: 1000px;
+	width:100%;
+	margin:auto;
+	margin-top: 46px;
+}
+
+.news-wrapper p {
+	color:grey;
+}
+.news-wrapper {
+	max-width: 500px;
+	width:50%;
+	background-color: white;
+	margin:auto;
+	float:left;
+}
+
+.news-wrapper .heading{
+	max-width: 500px;
+	 margin: 0 auto;
+	 width: 100%;
+	 overflow: auto;
+	 font-size: 20px;
+	 font-weight:bold;
+	}
+
+.news-wrapper .items .columns img {
+	width:140px;
+	height: 100%;
+}
+.news-wrapper .items{
+
+		overflow: auto;
+    width: 1000px;
+    margin: 10px auto;
+    position: relative;
+
+}	
+.news-wrapper .items .columns{
+	width:25%;
+	height: 100%;
+	float:left;
+
+}
+
+
 .gallerywrapper{
 	width:100%;
 	background-color: white;
+	margin-top: 46px;
 }
 .gallerywrapper .heading {
 	 max-width: 1000px;
@@ -8,12 +99,13 @@
 	 width: 100%;
 	 overflow: auto;
 	 font-size: 20px;
+	 font-weight:bold;
 }
 .gallerywrapper .items{
 	overflow: auto;
     width: 1000px;
     margin: 10px auto;
-    position: relative
+    position: relative;
 }
 
 .gallerywrapper .items .columns img{
